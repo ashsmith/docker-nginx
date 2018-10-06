@@ -1,0 +1,11 @@
+version: "3.0"
+
+services:
+
+  nginx-phpfpm-latest:
+    image: ashsmith/nginx:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VERSION: latest
