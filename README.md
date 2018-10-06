@@ -1,5 +1,7 @@
 # ashsmith/nginx
 
+[![CircleCI](https://circleci.com/gh/ashsmith/docker-nginx/tree/master.svg?style=svg)](https://circleci.com/gh/ashsmith/docker-nginx/tree/master)
+
 This is a basic nginx image, with php-fpm upstream configuration out of the box.
 
 If you want to use https, just set the USE_HTTPS=true environment variable. 
